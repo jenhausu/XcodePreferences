@@ -180,7 +180,7 @@
 				<key>Group</key>
 				<string>Editor Menu for Asset Catalog Comparison</string>
 				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonPegasusEditor.MenuDefinition.Editor</string>
+				<string>Xcode.DeltaComparisonEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
@@ -201,76 +201,6 @@
 				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^~@m</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Refactor</string>
-				<key>Title</key>
-				<string>Extract to Method</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>extractMethod:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonPegasusEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^~@m</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Refactor</string>
-				<key>Title</key>
-				<string>Extract to Method</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Asset Catalog Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonPegasusEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~\ </string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
 				<key>Group</key>
 				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
@@ -278,21 +208,23 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>~\ </string>
+				<string>^~@m</string>
 				<key>Navigation</key>
 				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Refactor</string>
 				<key>Title</key>
-				<string>Show Completions</string>
+				<string>Extract to Method</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>complete:</string>
+				<string>extractMethod:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
 				<key>GroupID</key>
@@ -300,33 +232,77 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>~\ </string>
+				<string>^~@m</string>
 				<key>Navigation</key>
 				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Refactor</string>
 				<key>Title</key>
-				<string>Show Completions</string>
+				<string>Extract to Method</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>complete:</string>
+				<string>extractMethod:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandGroupID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowHideCompletions</string>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.Refactor.ExtractMethod</string>
 				<key>Group</key>
-				<string>Editor Menu for Source Code Comparison</string>
+				<string>Editor Menu for Stickers</string>
 				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonPegasusEditor.MenuDefinition.Editor</string>
+				<string>Xcode.DeltaComparisonEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>~\ </string>
+				<string>^~@m</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Refactor</string>
+				<key>Title</key>
+				<string>Extract to Method</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>toggleInlineEnabled:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowInline</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$@I</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Show Completions</string>
+				<string>Inline Comparison</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>toggleTwoUpEnabled:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEPegasusSourceEditor.CmdDefinition.ShowTwoUp</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>~$@C</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Side By Side Comparison</string>
 			</dict>
 		</array>
 		<key>Version</key>
